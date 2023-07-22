@@ -1,0 +1,10 @@
+.accoPanel .card-header{
+    cursor: pointer;
+}
+.accoPanel .card-body {
+    display : none;
+}
+
+.accoPanel .card-body .show{
+    display: block;
+}

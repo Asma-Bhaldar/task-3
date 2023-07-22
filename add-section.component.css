@@ -1,0 +1,12 @@
+.card{
+    width: 400px;
+}
+#section input[type=text]{
+    height:150px;
+}
+#button{
+    width:350px;
+    }
+.card,.form-control,.btn{
+    border:2px solid black;
+}

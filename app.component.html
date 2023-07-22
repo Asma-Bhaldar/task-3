@@ -1,0 +1,10 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-6">
+      <app-add-section (tellToParent)="newRecievedAcco = $event"></app-add-section>
+    </div>
+    <div class="col-6">
+      <app-accordian [newAccoSetter] ="newRecievedAcco"></app-accordian>
+    </div>
+  </div>
+</div>
